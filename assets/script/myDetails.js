@@ -1,0 +1,5 @@
+export default "Meliston Hadrian Costa"
+export let designation = "React Developer"
+export let experience = "9 years"
+export let based = "Goa, India"
+export let availability = "Available for work"
