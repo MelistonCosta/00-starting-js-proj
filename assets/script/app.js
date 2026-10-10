@@ -29,8 +29,29 @@ function combine(value1, value2, value3) {
     return result;
 }
 
-combine("18","25","5");
+combine("188","25","5");
 combine("4","245","35");
 combine("222","2222","222");
-combine("345","5","25");
-combine("500","800","200");
+combine("345","15","25");
+combine("500","800","400");
+
+console.log ("\n\n")
+console.log ("Arrays and Array Methods:")
+
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits);
+fruits.push("Orange");
+console.log("After adding: Orange");
+console.log(fruits);
+fruits.push("Orange", "Grapes");
+console.log("After adding: Orange , Grapes");
+console.log(fruits);
+console.log("After removing duplicate items:");
+fruits = fruits.filter((fruit, index) => {
+    return fruits.indexOf(fruit) === index;
+});
+
+console.log(fruits);
+// console.log(fruits[0]); // Apple
+// console.log(fruits[1]); // Banana
+// console.log(fruits[2]); // Mango
